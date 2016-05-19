@@ -1,7 +1,7 @@
 defmodule Cqrs.Mixfile do
   use Mix.Project
 
-  @version "0.0.2"
+  @version "0.0.3"
 
   def project do
     [app: :cqrs,
@@ -35,7 +35,7 @@ defmodule Cqrs.Mixfile do
   defp deps do
     [
       {:cqrs_commands, "~> 0.0.2"},
-      {:cqrs_events, "~> 0.0.1"},
+      {:cqrs_events, "~> 0.0.2"},
     ]
   end
 
