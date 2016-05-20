@@ -35,7 +35,7 @@ defmodule Cqrs.Mixfile do
   defp deps do
     [
       {:cqrs_commands, "~> 0.0.6"},
-      {:cqrs_events, "~> 0.0.3"},
+      {:cqrs_events, "~> 0.0.4"},
     ]
   end
 
