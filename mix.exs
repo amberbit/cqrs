@@ -34,7 +34,7 @@ defmodule Cqrs.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:cqrs_commands, "~> 0.0.3"},
+      {:cqrs_commands, "~> 0.0.5"},
       {:cqrs_events, "~> 0.0.2"},
     ]
   end
